@@ -1,0 +1,70 @@
+#hero 
+{
+	background-image: url("../img/hero_image.jpg");
+	border: solid 1px grey;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	min-height: 764px;
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.myhero 
+{
+	background-image: url("../img/hero_image.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 764px;
+	/*padding-left: 100px;
+	padding-top: 100px; */
+}
+
+.copy-block
+{
+	background-color: white;
+	border-width: 2px;
+}
+
+.image-block 
+{
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size:100% auto;
+	height: 764px;
+}
+
+.time
+{
+	background-image: url("../img/time.jpg");
+}
+
+.headline
+{
+	font-size: 40px;
+	font-family: 'proxima nova';
+	font-weight: 800;
+	color: white;
+	/* width: 400px;*/
+	line-height: 1.2;
+}
+
+.btn-primary
+{
+	background-color: #14AECF;
+	border-radius: 1px;
+	border:none;
+	font-family: 'proxima nova';
+	font-weight: 700;
+	font-size: 14px;
+	padding: 15px 30px;
+	letter-spacing: 1px;
+}
+
+.global-margin
+{
+	margin: 16px 0px;
+}
+
+
