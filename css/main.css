@@ -33,6 +33,8 @@
 	background-repeat: no-repeat;
 	background-size:100% auto;
 	height: 764px;
+	padding-top: 3rem;
+	color: white;
 }
 
 .time
@@ -42,7 +44,7 @@
 
 /*  TYPOGRAPHY */
 
-body
+body, h1, h2
 {
 	font-family: 'proxima nova';
 }
@@ -73,11 +75,18 @@ h2
 	text-transform: uppercase;
 	margin-bottom: 2rem;
 	padding-bottom: .5rem;
-	font-family: 'proxima nova';
 	font-weight: 800;
-
 }
 
+h3
+{
+	border-bottom: solid 1px white;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+	padding-bottom: .5rem;
+	font-weight: 800;
+	font-size: 1rem;
+}
 
 
 /* BUTTONS */
