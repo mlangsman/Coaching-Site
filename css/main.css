@@ -40,7 +40,19 @@
 	background-image: url("../img/time.jpg");
 }
 
+/*  TYPOGRAPHY */
+
 .headline
+{
+	font-size: 54px;
+	font-family: 'heiti tc';
+	font-weight: 800;
+	color: white;
+	/* width: 400px;*/
+	line-height: 1.2;
+	letter-spacing: 12px;
+}
+.sub-headline
 {
 	font-size: 40px;
 	font-family: 'proxima nova';
@@ -49,6 +61,13 @@
 	/* width: 400px;*/
 	line-height: 1.2;
 }
+
+body
+{
+	font-family: 'proxima nova';
+}
+
+/* BUTTONS */
 
 .btn-primary
 {
@@ -67,4 +86,13 @@
 	margin: 16px 0px;
 }
 
+.global-padding
+{
+    padding: 6rem 6rem;
+}
 
+.hr-white
+{
+	background-color: white;
+	border-top: 2px solid white;
+}
