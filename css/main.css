@@ -70,7 +70,7 @@ body, h1, h2
 
 .headline
 {
-	font-size: 54px;
+	font-size: 40px;
 	font-family: 'heiti tc';
 	font-weight: 800;
 	color: white;
@@ -81,7 +81,7 @@ body, h1, h2
 
 .sub-headline
 {
-	font-size: 40px;
+	font-size: 36px;
 	font-family: 'proxima nova';
 	font-weight: 800;
 	color: white;
@@ -96,6 +96,7 @@ h2
 	margin-bottom: 2rem;
 	padding-bottom: .5rem;
 	font-weight: 800;
+	font-size: 1.5rem;
 }
 
 h3
