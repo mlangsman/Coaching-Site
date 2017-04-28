@@ -17,7 +17,7 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	min-height: 764px;
+	min-height: 600px;
 	padding: 6rem 6rem;
 	/*padding-left: 100px;
 	padding-top: 100px; */
@@ -36,10 +36,11 @@
 {
 	background-position: top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	background-size:cover;
 	min-height: 400px;
 	padding-top: 7rem;
+	margin-bottom: .1rem;
 	margin-left: 0;
 	color: white;
 }
@@ -52,6 +53,11 @@
 .stuck
 {
 	background-image: url("../img/stuck.jpg");
+}
+
+.promotion
+{
+	background-image: url("../img/promotion.jpg");
 }
 
 
