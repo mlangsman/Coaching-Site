@@ -60,6 +60,19 @@
 	background-image: url("../img/promotion.jpg");
 }
 
+.skills
+{
+	background-image: url("../img/skills.jpg");
+	color: black;
+}
+
+.skills h3
+{
+	border-color: rgba(0,0,0,0.2);
+}
+
+
+
 
 /*  TYPOGRAPHY */
 
