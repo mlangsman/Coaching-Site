@@ -75,8 +75,7 @@
 {
 	background-image: url("../img/quote.jpg");
 	background-repeat: no-repeat;
-	padding-top: 40px;
-	padding-left: 40px;
+	padding: 40px 20px 0px 40px;
 }
 
 
@@ -140,7 +139,7 @@ h3
 }
 
 .testimonial {
-	padding-top: 240px;
+	/* padding-top: 240px;*/
 	text-align: center;
 	width: 60%;
 	color: black;
@@ -150,19 +149,24 @@ h3
 .testimonial > .quote
 {
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+}
+
+p .quote
+{
+		padding-bottom: 0;
 }
 
 .testimonial > .about
 {
 	color: rgba(0,0,0,0.7);
 	padding-left: 40px;
-	padding-top: 60px;
+	padding-right: 20px;
+	padding-top: 30px;
+	margin-bottom: 40px;
 	font-weight: 700;
 	font-size: 0.8rem;
 }
-
-
 
 
 
@@ -210,57 +214,37 @@ h3
 
 /** http://codepen.io/Rowno/pen/Afykb **/
 
-
-.carousel-fade {
-    .carousel-inner {
-        .item {
-            transition-property: opacity;
-        }
-        
-        .item,
-        .active.left,
-        .active.right {
-            opacity: 0;
-        }
-
-        .active,
-        .next.left,
-        .prev.right {
-            opacity: 1;
-        }
-
-        .next,
-        .prev,
-        .active.left,
-        .active.right {
-            left: 0;
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .carousel-control {
-        z-index: 2;
-    }
+.carousel
+{
+	padding-bottom: 30px;
 }
+.carousel-indicators li
+{
+	background-color: black;
+}
+
+.carousel-indicators li.active 
+{
+	background-color: red;
+}
+
 
 
 .carousel, 
 .carousel-inner, 
-.carousel-inner .item {
+.carousel-inner .carousel-item {
     height: auto;
 }
 
-.item:nth-child(1) {
-    background-image: url("../img/mugshot-1.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+.carousel-item:nth-child(1) {
+
 }
 
-.item:nth-child(2) {
-    background: #51BCE8;
+.carousel-item:nth-child(2) {
+    /* background: #51BCE8; */
 }
 
-.item:nth-child(3) {
+.carousel-item:nth-child(3) {
     background: #E46653;
 }
 
