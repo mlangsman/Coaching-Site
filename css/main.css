@@ -97,6 +97,12 @@ body, h1, h2
 	color: black;
 }
 
+.text-shadow
+{
+	text-shadow: 0px 0px 68px rgba(0, 0, 0, 0.5);
+}
+
+
 .headline
 {
 	font-size: 40px;
