@@ -71,7 +71,23 @@
 	border-color: rgba(0,0,0,0.2);
 }
 
+.quote
+{
+	background-image: url("../img/quote.jpg");
+	background-repeat: no-repeat;
+	padding-top: 40px;
+	padding-left: 40px;
+}
 
+
+
+.slider-size {
+height: 600px; /* This is your slider height */
+}
+.carousel {
+width:100%; 
+margin:0 auto; /* center your carousel if other than 100% */ 
+}
 
 
 /*  TYPOGRAPHY */
@@ -79,6 +95,7 @@
 body, h1, h2
 {
 	font-family: 'proxima nova';
+	color: black;
 }
 
 .headline
@@ -122,6 +139,33 @@ h3
 	font-size: 1rem;
 }
 
+.testimonial {
+	padding-top: 240px;
+	text-align: center;
+	width: 60%;
+	color: black;
+	font-family: 'proxima nova';
+}
+
+.testimonial > .quote
+{
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+
+.testimonial > .about
+{
+	color: rgba(0,0,0,0.7);
+	padding-left: 40px;
+	padding-top: 60px;
+	font-weight: 700;
+	font-size: 0.8rem;
+}
+
+
+
+
+
 .right
 {
 	text-align: right;
@@ -152,8 +196,73 @@ h3
     padding-right: 6rem;
 }
 
+.overlap
+{
+	margin-top: -40px;
+}
+
 .hr-white
 {
 	background-color: white;
 	border-top: 2px solid white;
 }
+
+
+/** http://codepen.io/Rowno/pen/Afykb **/
+
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+    height: auto;
+}
+
+.item:nth-child(1) {
+    background-image: url("../img/mugshot-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.item:nth-child(2) {
+    background: #51BCE8;
+}
+
+.item:nth-child(3) {
+    background: #E46653;
+}
+
+
+
