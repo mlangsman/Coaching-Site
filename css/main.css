@@ -134,6 +134,21 @@ h2
 	font-size: 1.5rem;
 }
 
+h2.responsive-header
+{
+	width: 500px;
+}
+
+.your-coach h2
+{
+	margin-top: 80px;
+}
+
+.your-coach p
+{
+	padding-right: 100px;
+}
+
 h3
 {
 	border-bottom: solid 1px rgba(255,255,255,0.5);
@@ -251,7 +266,7 @@ p .quote
 }
 
 .carousel-item:nth-child(3) {
-    background: #E46653;
+    /* background: #E46653; */
 }
 
 
