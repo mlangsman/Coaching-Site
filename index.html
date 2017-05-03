@@ -10,6 +10,7 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous"> -->
 
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="https://use.typekit.net/lrg1crr.js"></script>
@@ -25,9 +26,9 @@
 	<div class="jumbotron myhero">
 		<div class="row">
 			<div class="col-8 no-gutters px-0">
-				<h1 class="headline">FFWD COACHING</h2>
+				<h1 class="headline text-shadow">FFWD COACHING</h2>
 				<hr class="hr-white">
-				<p class="sub-headline">GET THE EDGE IN YOUR MUSIC AND YOUR LIFE</p>
+				<p class="sub-headline text-shadow">GET THE EDGE IN YOUR MUSIC AND YOUR LIFE</p>
 				<button type="button" class="btn btn-primary global-margin">SCHEDULE YOUR FREE SESSION</button>
 			</div>
 			<div class="col"></div>
@@ -117,7 +118,7 @@
 		<div class="row overlap">
 			<div class="col-12">
 				
-				<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+				<div id="carousel" class="carousel slide" data-ride="carousel">
    					<ol class="carousel-indicators">
         				<li data-target="#carousel" data-slide-to="0" class="active"></li>
         				<li data-target="#carousel" data-slide-to="1"></li>
@@ -125,26 +126,71 @@
     				</ol>
    
    					 <!-- Carousel items -->
-    				<div class="carousel-inner">
-    				    <div class="active item">
+    				<div class="carousel-inner" role="listbox">
+    				    <div class="active carousel-item">
     				    		<div class="testimonial container">
+    				    			<img src="../img/mugshot-1@2x.png" width="144" height="144" alt="mugshot" />
     				    			<p class="quote"> Marc and Andrew have been instrumental in helping me to take the first steps in getting my music 'out of the bedroom’. Whether giving feedback on mixes or helping writing biographies for press releases, they have helped at every stage of the process.</p>
     				    			<p class="about">Mike Harrison, Music Producer & Mastering Engineer, Hastings <br />
     				    			Featured on Mixmag’s Album of the month</p>
 
     				    		</div>
-    				    	</div>
+    				    	
     				    </div>
-     					<div class="item"></div>
-     					<div class="item"></div>
+     					<div class="carousel-item">
+    				    		<div class="testimonial container">
+    				    			<img src="../img/mugshot-1@2x.png" width="144" height="144" alt="mugshot" />
+    				    			<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  Ut enim ad minim veniam, quis nostrud exercitation</p>
+    				    			<p class="about">Mike Harrison, Music Producer & Mastering Engineer, Hastings <br />
+    				    			Featured on Mixmag’s Album of the month</p>
+
+    				    		</div>
+    				    	
+    				    </div>
+
+     					<div class="carousel-item">
+    				    		<div class="testimonial container">
+    				    			<img src="../img/mugshot-1@2x.png" width="144" height="144" alt="mugshot" />
+    				    			<p class="quote">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  Ut enim ad minim veniam, quis nostrud exercitation</p>
+    				    			<p class="about">Mike Harrison, Music Producer & Mastering Engineer, Hastings <br />
+    				    			Featured on Mixmag’s Album of the month</p>
+
+    				    		</div>
+    				    	
+    				    </div>
+
+
      				</div>
+     	
+
+     				<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+    					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+  					</a>
+  					<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+    					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+  					</a>
 					<!-- Carousel nav -->
-					<a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
-					<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a>
+					<!-- <a class="carousel-control left" href="#carousel" data-slide="prev">&lsaquo;</a>
+					<a class="carousel-control right" href="#carousel" data-slide="next">&rsaquo;</a> -->
 				</div>
 
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col copy-block your-coach global-padding">
+				<img src="img/your-coach@2x.png" width="230" height="230" class="float-right"/>
+				<h2 class="responsive-header">Your Coach</h2>
+				<p>Hi, I’m Marc and since 2013 I've been coaching producers and running camps at the UK’s most exclusive music studios supported by Native Instruments, Focusrite-Novation, SoundCloud, Ninja Tune, Island Records, Axtone, Notting Hill Publishing and LANDR.</p>
+
+				<p>I’ve spoken and taught at Brighton Music Conference, RedBull Studios, Real World Studios and Tileyard Studios, helping producers finish more music, meet collaborators, get their work signed and develop an original sound and identity.</p>
+
+				<p>Producer's who I coach also benefit from my experience working at Universal Music where I developed cutting-edge ways for artists and labels to breakthrough and profit in the digital economy. 
+			</div>
+		</div>
+
 
 	</div>
 
@@ -155,6 +201,17 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
+    <script src="js/scrollreveal.min.js"></script>
+    	<script>
+		// JavaScript
+		window.sr = ScrollReveal({ reset: true, scale: 1, viewFactor: 0.2, duration: 800, });
+		sr.reveal('.copy-block');
+		sr.reveal('.image-block');
+		sr.reveal('.your-coach');
+		sr.reveal('#carousel');
+
+	</script>
   </body>
 </html>
 
