@@ -32,6 +32,11 @@
 
 }
 
+.copy-block h3
+{
+	border-color: rgba(0,0,0,0.2);
+}
+
 .image-block 
 {
 	background-position: top;
@@ -134,9 +139,21 @@ h2
 	font-size: 1.5rem;
 }
 
-h2.responsive-header
+.responsive-header
 {
 	width: 500px;
+}
+
+@media only screen and (max-width: 900px) {
+    .responsive-header {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 795px) {
+    .responsive-header {
+        width: 300px;
+    }
 }
 
 .your-coach h2
@@ -162,7 +179,7 @@ h3
 .testimonial {
 	/* padding-top: 240px;*/
 	text-align: center;
-	width: 60%;
+	width: 70%;
 	color: black;
 	font-family: 'proxima nova';
 }
@@ -170,7 +187,7 @@ h3
 .testimonial > .quote
 {
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 
 p .quote
@@ -183,7 +200,7 @@ p .quote
 	color: rgba(0,0,0,0.7);
 	padding-left: 40px;
 	padding-right: 20px;
-	padding-top: 30px;
+	padding-top: 10px;
 	margin-bottom: 40px;
 	font-weight: 700;
 	font-size: 0.8rem;
@@ -255,6 +272,11 @@ p .quote
 .carousel-inner, 
 .carousel-inner .carousel-item {
     height: auto;
+}
+
+.testimonial
+{
+	height: 420px;
 }
 
 .carousel-item:nth-child(1) {
