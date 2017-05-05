@@ -206,7 +206,49 @@ p .quote
 	font-size: 0.8rem;
 }
 
+.credentials
+{
+	margin-top: 40px;
+}
 
+.credentials h4
+{
+	background-color: #363636;
+	color: white;
+	padding:5px 0 5px 20px;
+	font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+
+.credentials:before 
+{
+    content: '';
+    position: absolute;
+  	right: 95px;
+    border-top: 34px solid white;
+    border-left: 80px solid #363636;
+    width: 0;
+}
+
+.credentials-container
+{
+	background-color: #EBEBEB;
+}
+
+.credentials ul
+{
+	margin-left: 20px;
+	background-color: #EBEBEB;
+	padding: 20px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
 
 .right
 {
