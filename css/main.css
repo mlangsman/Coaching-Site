@@ -10,17 +10,27 @@
 	padding-top: 100px;
 }
 
-.myhero 
+.myhero, .cta-block
 {
-	background-image: url("../img/hero_image.jpg");
 	background-position: top;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
-	min-height: 600px;
 	padding: 6rem 6rem;
 	/*padding-left: 100px;
 	padding-top: 100px; */
+}
+
+.myhero 
+{
+		background-image: url("../img/hero_image.jpg");
+		min-height: 600px;
+		background-attachment: fixed;
+}
+
+.cta-block
+{
+		background-image: url("../img/cta-background@2x.jpg");
+		min-height: 322px;
 }
 
 .copy-block
@@ -31,6 +41,7 @@
 	padding-bottom: 3rem;
 
 }
+
 
 .copy-block h3
 {
@@ -127,6 +138,8 @@ body, h1, h2
 	color: white;
 	/* width: 400px;*/
 	line-height: 1.2;
+	text-transform: uppercase;
+
 }
 
 h2
