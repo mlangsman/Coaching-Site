@@ -48,13 +48,14 @@
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 10rem 6rem;
+
 	/*padding-left: 100px;
 	padding-top: 100px; */
 }
 
 .myhero 
 {
+		padding: 10rem 6rem;
 		background-image: url("../img/hero-image-2@2x.jpg");
 		min-height: 500px;
 		background-attachment: fixed;
@@ -62,8 +63,9 @@
 
 .cta-block
 {
+		padding: 7rem 6rem 5rem 6rem;
 		background-image: url("../img/cta-background@2x.jpg");
-		min-height: 322px;
+		min-height: 230px;
 }
 
 .copy-block
@@ -165,7 +167,7 @@ body, h1, h2
 
 .sub-headline
 {
-	font-size: 36px;
+	font-size: 38px;
 	font-family: 'proxima nova';
 	font-weight: 800;
 	color: white;
@@ -379,5 +381,10 @@ p .quote
     /* background: #E46653; */
 }
 
+.footer
+{
+	height:100px;
+	background-color: white;
+}
 
 
