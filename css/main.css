@@ -1,29 +1,62 @@
-#hero 
+.navbar
 {
-	background-image: url("../img/hero_image.jpg");
-	border: solid 1px grey;
-	background-position: top;
-	background-repeat: no-repeat;
-	background-size:100% auto;
-	min-height: 764px;
-	padding-left: 100px;
-	padding-top: 100px;
+	background-color: #1A1A1A;
+	height: 60px;
+
+
+
 }
+
+.navbar-brand
+{
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+
+.navbar-nav
+{
+	margin-right: 40px;
+}
+.nav-item
+{
+	color: white;
+	font-family: "proxima nova";
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 0.7rem;
+	letter-spacing: 4px;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 3px;
+	margin-right: 16px;
+	margin-left: 16px;
+}
+
+.nav-link.active
+{
+	border-bottom: solid 1px rgba(255,255,255,0.6);
+
+
+
+}
+
+
 
 .myhero, .cta-block
 {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding: 6rem 6rem;
+	padding: 10rem 6rem;
 	/*padding-left: 100px;
 	padding-top: 100px; */
 }
 
 .myhero 
 {
-		background-image: url("../img/hero_image.jpg");
-		min-height: 600px;
+		background-image: url("../img/hero-image-2@2x.jpg");
+		min-height: 500px;
 		background-attachment: fixed;
 }
 
