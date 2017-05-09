@@ -2,9 +2,6 @@
 {
 	background-color: #1A1A1A;
 	height: 60px;
-
-
-
 }
 
 .navbar-brand
@@ -21,7 +18,7 @@
 .nav-item
 {
 	color: white;
-	font-family: "proxima nova";
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.7rem;
@@ -146,7 +143,7 @@ margin:0 auto; /* center your carousel if other than 100% */
 
 body, h1, h2
 {
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	color: black;
 }
 
@@ -158,7 +155,7 @@ body, h1, h2
 h1
 {
 	font-size: 38px;
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	font-weight: 800;
 	color: black;
 	/* width: 400px;*/
@@ -171,7 +168,7 @@ h1
 .sub-headline
 {
 	font-size: 38px;
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	font-weight: 800;
 	color: white;
 	/* width: 400px;*/
@@ -256,7 +253,7 @@ h5.modal-title
 	text-align: center;
 	width: 70%;
 	color: black;
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 }
 
 .testimonial > .quote
@@ -337,7 +334,7 @@ p .quote
 	background-color: #14AECF;
 	border-radius: 1px;
 	border:none;
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	font-weight: 700;
 	font-size: 14px;
 	padding: 15px 30px;
@@ -434,7 +431,7 @@ input, textarea
 
 input.text
 {
-	font-family: 'proxima nova';
+	font-family: "proxima nova", "proxima-nova", sans-serif;
 	font-size: 1.2rem;
 	padding:10px;
 	color: black;
