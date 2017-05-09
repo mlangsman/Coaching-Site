@@ -339,6 +339,11 @@ p .quote
 	letter-spacing: 1px;
 }
 
+.btn-primary:hover
+{
+	background-color: #14CFC2;
+}
+
 .global-margin
 {
 	margin: 16px 0px;
@@ -419,7 +424,7 @@ input
 }
 input.text
 {
-	font-family: 'proxima-nova';
+	font-family: 'proxima nova';
 	font-size: 1.2rem;
 	padding:10px;
 	color: black;
@@ -434,7 +439,9 @@ button[type=submit]
 
 .af-element.privacyPolicy
 {
-	display: flex;
+	display: block;
+	padding: 20px 70px;
+	text-align: center;
 }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
@@ -457,7 +464,7 @@ button[type=submit]
 #af-form-1644780650 .af-body .af-textWrap{display:block;float:none;}
 #af-form-1644780650 .af-body .privacyPolicy{color:#CCCCCC; margin:auto; display: flex !important;}
 #af-form-1644780650 .af-body a{color:#CCCCCC;text-decoration:underline;font-style:normal;font-weight:normal;}
-#af-form-1644780650 .af-body input.text, #af-form-1644780650 .af-body textarea{background-color:#FFFFFF;border-color:#D9D9D9;border-width:1px;border-style:solid;color:black;}
+#af-form-1644780650 .af-body input.text, #af-form-1644780650 .af-body textarea{background-color:#FFFFFF;border-color:#D9D9D9;border-width:1px;border-style:solid;}
 #af-form-1644780650 .af-body input.text:focus, #af-form-1644780650 .af-body textarea:focus{background-color:#FFFAD6;border-color:#030303;border-width:1px;border-style:solid;}
 #af-form-1644780650 .af-body label.previewLabel{display:block;float:none;text-align:left;width:auto;color:#CCCCCC;text-decoration:none;font-style:normal;font-weight:normal;font-size:24px;font-family:Helvetica, sans-serif;}
 #af-form-1644780650 .af-body{padding-bottom:0px;padding-top:15px;background-repeat:no-repeat;background-position:inherit;background-image:none;color:#CCCCCC;}
