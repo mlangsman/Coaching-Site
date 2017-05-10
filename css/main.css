@@ -505,11 +505,14 @@ button[type=submit]
     .navbar-brand img { width: 100px !important; height: 100px !important; }
     .global-padding { padding-left: 3rem; padding-right: 3rem; }
     h2 {font-size: 1.2rem;}
+    h3 {font-size: 0.9rem;}
     p, li {font-size: 0.8rem;}
+    .image-block {padding-top: 5rem;}
     .your-coach p { padding-right: 0px;}
     .your-coach img {width: 150px; height: 150px; margin-top: 30px;}
 	.responsive-header-main { width: 150px;}
 	.credentials:before {right:47px;}
+	.cta-block {padding: 4rem 3rem; background-attachment: initial;}
 
 }
 
