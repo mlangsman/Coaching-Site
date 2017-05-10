@@ -491,6 +491,8 @@ button[type=submit]
 
 @media only screen and (max-width: 795px) 
 {
+	   .responsive-header {
+        width: 300px;
 
 }
 
@@ -503,9 +505,16 @@ button[type=submit]
     .navbar-brand img { width: 100px !important; height: 100px !important; }
     .global-padding { padding-left: 3rem; padding-right: 3rem; }
     h2 {font-size: 1.2rem;}
-    p {font-size: 0.8rem;}
+    p, li {font-size: 0.8rem;}
+    .your-coach p { padding-right: 0px;}
+    .your-coach img {width: 150px; height: 150px; margin-top: 30px;}
+	.responsive-header-main { width: 150px;}
+	.credentials:before {right:47px;}
 
 }
+
+
+
 
 
 /** AWeber Form CSS **/
