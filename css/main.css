@@ -1,3 +1,11 @@
+
+.jumbotron
+{
+	border-radius: 0px;
+}
+
+/** Main Nav **/
+
 .navbar
 {
 	background-color: #1A1A1A;
@@ -15,6 +23,7 @@
 {
 	margin-right: 40px;
 }
+
 .nav-item
 {
 	color: white;
@@ -36,7 +45,21 @@
 
 }
 
+.navbar-inverse .navbar-toggler-icon 
+{
+	background-image: url("../img/burger-menu-icon@2x.jpg") !important;
+	width: 30px;
+	height: 30px;
 
+}
+
+.navbar-toggler
+{
+	border:none;
+	top: 11px;
+}
+
+/** Hero Section **/
 
 .myhero, .cta-block
 {
@@ -192,17 +215,9 @@ h2
 	width: 500px;
 }
 
-@media only screen and (max-width: 900px) {
-    .responsive-header {
-        width: 400px;
-    }
-}
 
-@media only screen and (max-width: 795px) {
-    .responsive-header {
-        width: 300px;
-    }
-}
+
+
 
 .your-coach h2
 {
@@ -464,6 +479,33 @@ button[type=submit]
   color: #c7c7c7 !important;
 }
 
+
+/** Responsive Behaviours **/
+
+@media only screen and (max-width: 900px) {
+    .responsive-header {
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 795px) 
+{
+
+}
+
+@media only screen and (max-width: 575px) 
+{
+    .sub-headline { font-size: 1.5rem; }
+    .desktop-only {display:none;}
+    .btn-primary { font-size: 0.6rem !important;}
+    .myhero {padding: 4rem 3rem; min-height: 0px; background-attachment: initial;}
+    .navbar-brand img { width: 100px !important; height: 100px !important; }
+    .global-padding { padding-left: 3rem; padding-right: 3rem; }
+    h2 {font-size: 1.2rem;}
+    p {font-size: 0.8rem;}
+
+}
 
 
 /** AWeber Form CSS **/
