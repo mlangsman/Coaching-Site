@@ -40,11 +40,11 @@
 			<div class="col d-flex justify-content-center mt-5 flex-column">
 				<h1 class="centered">Get in touch</h1>
 				<p class="centered mt-4">If you have any questions about my coaching services then drop me a note and I’ll get right back to you.</p>
-					<form class="mt-4">
-						<input type="text" class="form-control" required placeholder="Your first name"" />
-						<input type="text" class="form-control" required placeholder="Your email"" />
-						<textarea rows="6" placeholder="Your message..." required class="form-control"></textarea>
-						<input type="submit" class="btn btn-primary" value="SUBMIT" />
+					<form class="mt-4" action="https://formspree.io/marc@langsman.com" method="POST">
+						<input type="text" class="form-control" name="name" required placeholder="Your first name" />
+						<input type="text" class="form-control" name="_replyto" required placeholder="Your email" />
+						<textarea rows="6" name="message" placeholder="Your message..." required class="form-control"></textarea>
+						<input type="submit" class="btn btn-primary" value="Send" />
 					</form>
 			</div>
 			<div class="col-2"></div>
