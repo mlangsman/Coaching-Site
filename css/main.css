@@ -522,6 +522,7 @@ button[type=submit]
 	.nav-item {font-size: 1rem; margin: 0;}
 	.nav-link.active {border: none;}]
 	button.navbar-toggler {z-index: 2 !important;}
+	.credentials ul { column-count: 1;  -webkit-column-count: 1; -moz-column-count: 1; }
 
 {
 
