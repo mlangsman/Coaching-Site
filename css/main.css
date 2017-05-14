@@ -34,7 +34,7 @@
 .nav-item
 {
 	color: white;
-	font-family: "proxima nova", "proxima-nova", sans-serif;
+	font-family: "proxima-nova", "proxima nova", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	font-size: 0.7rem;
@@ -270,6 +270,12 @@ h5.modal-title
     top: 20px;
 }
 
+.modal-body
+{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
 .testimonial {
 	/* padding-top: 240px;*/
 	text-align: center;
@@ -434,7 +440,7 @@ p .quote
 
 .footer
 {
-	height:100px;
+	height:0px;
 	background-color: white;
 }
 
@@ -445,10 +451,12 @@ input
 	width: 100%;
 }
 
+
+
 input, textarea
 {
 	border-radius: 2px;
-	margin: 20px 10px;
+	margin: 20px 0px;
 }
 
 input.text
