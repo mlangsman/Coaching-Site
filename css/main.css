@@ -410,7 +410,7 @@ p .quote
 
 .carousel-indicators li.active 
 {
-	background-color: red;
+	background-color: #14AECF;
 }
 
 
@@ -505,6 +505,7 @@ button[type=submit]
 @media only screen and (max-width: 795px) 
 {
 	   .responsive-header {width: 300px;}
+	   .testimonial > .quote {font-size: 0.9rem;}
 
 }
 
@@ -531,8 +532,7 @@ button[type=submit]
 	.nav-link.active {border: none;}]
 	button.navbar-toggler {z-index: 2 !important;}
 	.credentials ul { column-count: 1;  -webkit-column-count: 1; -moz-column-count: 1; }
-
-{
+	.testimonial > .quote {font-size: 0.8rem;}
 
 }
 
