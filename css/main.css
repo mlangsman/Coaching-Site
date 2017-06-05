@@ -225,6 +225,17 @@ h2
 
 /* BLOG STYLES */ 
 
+section.blog
+{
+	margin-top: 0px;
+}
+
+article
+{
+	margin-bottom:40px;	
+	margin-top:60px;
+}
+
 h2.blog-title
 {
 	border-bottom: none;
