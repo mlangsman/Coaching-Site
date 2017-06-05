@@ -1,0 +1,23 @@
+---
+layout: default
+title: Different Beat - Blog
+---
+
+	<div class="container">
+
+  {% for post in site.posts %}
+
+		<div class="row">
+			<div class="col-2"></div>
+			<article class="col d-flex justify-content-center mt-5 flex-column">
+				<h2 class="centered blog-title mt-5">{{ post.title }}</h2>
+				<p class="centered">{{ post.date | date: '%B %d, %Y' }}</p>
+				<img src="/assets/{{ post.image }}" class="featured-image"/>
+				{{post.content}}
+				<hr>
+			</article>
+			<div class="col-2"></div>
+		</div>
+      
+ 
+  {% endfor %}

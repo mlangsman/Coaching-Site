@@ -222,6 +222,25 @@ h2
 	font-size: 1.5rem;
 }
 
+
+/* BLOG STYLES */ 
+
+h2.blog-title
+{
+	border-bottom: none;
+}
+
+
+img.featured-image
+{
+	width: 100%;
+	margin-bottom: 40px;
+	margin-top:40px;
+}
+
+/* /BLOG STYLES */
+
+
 .responsive-header
 {
 	width: 500px;
@@ -498,6 +517,7 @@ button[type=submit]
 :-moz-placeholder { /* Firefox 18- */
   color: #c7c7c7 !important;
 }
+
 
 
 /** Responsive Behaviours **/
