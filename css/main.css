@@ -218,6 +218,7 @@ h1
 
 }
 
+
 h2
 {
 	border-bottom: solid 1px black;
@@ -228,6 +229,10 @@ h2
 	font-size: 1.5rem;
 }
 
+a
+{
+	color: #14AECF;
+}
 
 /* BLOG STYLES */ 
 
