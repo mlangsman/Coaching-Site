@@ -1,0 +1,31 @@
+---
+layout: default
+title: Different Beat - Blog
+---
+
+	<div class="container">
+
+
+
+		<section class="row blog">
+		<div class="col-1"></div>
+				<div class="col d-flex justify-content-center mt-5 flex-column">
+
+				  {% for post in site.posts %}
+					<article>
+						<h2 class="centered blog-title">{{ post.title }}</h2>
+						<p class="centered">{{ post.date | date: '%B %d, %Y' }}</p>
+						<img src="/assets/{{ post.image }}" class="featured-image"/>
+						<div class="content">
+							{{post.content}}
+							If you’d like me to help you personally with your music then book yourself a <a href="#mailingList" data-toggle="modal" data-target="#mailingList">free music strategy session</a> today.
+						</div>
+
+					</article>
+						<hr>
+						  {% endfor %}
+				</div>
+				<div class="col-1"></div>
+		</section>
+      
+ 
