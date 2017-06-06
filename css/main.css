@@ -173,6 +173,11 @@ width:100%;
 margin:0 auto; /* center your carousel if other than 100% */ 
 }
 
+hr
+{
+
+    width: 100%;
+}
 
 /*  TYPOGRAPHY */
 
@@ -196,6 +201,7 @@ h1
 	/* width: 400px;*/
 	line-height: 1.2;
 	text-transform: uppercase;
+	margin-top: 60px !important;
 
 }
 
@@ -247,6 +253,18 @@ img.featured-image
 	width: 100%;
 	margin-bottom: 40px;
 	margin-top:40px;
+}
+
+.content
+{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.content h2
+{
+	font-size: 20px;
+	margin-top: 60px;
 }
 
 /* /BLOG STYLES */

@@ -8,6 +8,7 @@ title: Different Beat - Blog
 
 
 		<section class="row blog">
+		<div class="col-1"></div>
 				<div class="col d-flex justify-content-center mt-5 flex-column">
 
 				  {% for post in site.posts %}
@@ -15,12 +16,14 @@ title: Different Beat - Blog
 						<h2 class="centered blog-title">{{ post.title }}</h2>
 						<p class="centered">{{ post.date | date: '%B %d, %Y' }}</p>
 						<img src="/assets/{{ post.image }}" class="featured-image"/>
-						{{post.content}}
+						<div class="content">
+							{{post.content}}
+						</div>
 					</article>
 						<hr>
-
 						  {% endfor %}
 				</div>
+				<div class="col-1"></div>
 		</section>
       
  
