@@ -18,6 +18,7 @@ So let’s get some clarity on this for you right now. Grab a notebook and pen a
 - When do you want to make it happen by?
 - How will you know when you’re on the way to achieving this?
 - What are you doing today to move forwards?  
+
 	and lastly….  
 
 - Why do you want to make money from your music?
