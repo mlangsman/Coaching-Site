@@ -334,6 +334,54 @@ h3
 	margin-bottom: 50px;
 }
 
+.pricing-card
+{
+	border: none;
+	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
+	padding: 15px 15px 15px 15px;
+}
+
+p.pricing-title
+{
+	text-transform: uppercase;
+	line-height: 0;
+	font-size: 18px;
+	font-family: "proxima nova", "proxima-nova", sans-serif;
+	font-weight: 800;
+	margin:15px 0 5px 0 ;
+}
+
+span.price
+{
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: "proxima nova", "proxima-nova", sans-serif;
+	font-weight: 800;
+}
+
+span.frequency
+{
+	font-size: 14px;
+	font-family: "proxima nova", "proxima-nova", sans-serif;
+	font-weight: 800;
+}
+
+.pricing-card li
+{
+	margin-bottom: 15px;
+}
+
+.pricing-card li.highlight
+{
+	font-weight: 600;
+}
+
+
+.pricing-card ul
+{
+	margin-top: 20px;
+}
+
 /* ICONS */
 
 i
@@ -342,6 +390,8 @@ i
 	color: #13ACCD;
 	width: 60px;
 }
+
+
 
 /* MODALS */
 
