@@ -345,9 +345,14 @@ img.featured-image
 
 /* PRICING CARDS SECTION */
 
-.pricing-section .col-3:first-of-type
+.pricing-section .col-6:first-of-type
 {
 	padding-right: 5px;
+}
+
+.pricing-col
+{
+	margin-bottom: 40px;
 }
 
 .pricing-card
@@ -355,6 +360,7 @@ img.featured-image
 	border: none;
 	box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2);
 	padding: 15px 15px 15px 15px;
+	height: 100%;
 }
 
 .pricing-card.most-popular
@@ -676,6 +682,12 @@ button[type=submit]
 
 @media only screen and (max-width: 900px) {
     .responsive-header {width: 400px;}
+    /* span.price {font-size: 24px;} */
+    /* p.pricing-title{ font-size: 16px; } */
+    /* pricing-card li{font-size:14px;} */
+    .pricing-card li {margin-bottom: 10px;} 
+	.pricing-card  {padding: 20px 20px !important; margin-bottom: 40px;}
+
 
 }
 
@@ -697,6 +709,8 @@ button[type=submit]
     h2 {font-size: 1.2rem;}
     h3 {font-size: 0.9rem;}
     p, li {font-size: 0.8rem;}
+    /* .pricing-card li {font-size: 18px;} */
+    .pricing-card li {margin-bottom: 5px;} 
     .image-block {padding-top: 5rem;}
     .your-coach p { padding-right: 0px;}
     .your-coach img {width: 150px; height: 150px; margin-top: 30px;}
