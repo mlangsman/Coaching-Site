@@ -10,6 +10,7 @@ Inspired by creative [Austin Kleon](http://austinkleon.com) I’ve designed some
 
 You can [download it here for iPhone 6/7](/assets/make-some-beats-instead-iphone.png) - Other handsets coming soon :)
 
+![image-title-here](/assets/make-some-beats-instead-iphone.png){:class="img-fluid img-small"}
 
 
 
