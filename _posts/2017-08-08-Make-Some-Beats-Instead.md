@@ -10,7 +10,7 @@ I’ve designed some wallpaper for your mobile lockscreen to remind to get down 
 
 You can [download it here for iPhone 6/7](/assets/make-some-beats-instead-iphone.png). Other handsets coming soon!
 
-![image-title-here](/assets/make-some-beats-instead-iphone.png){:class="img-fluid img-small mt-5"}
+![image-title-here](/assets/make-some-beats-instead-iphone.png){:class="img-fluid img-small mt-5 mb-5"}
 
 Inspired by awesome creative [Austin Kleon](http://austinkleon.com) 
 
