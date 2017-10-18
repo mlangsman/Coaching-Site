@@ -32,5 +32,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-cta: "APPLY FOR A FREE SESSION"
-modal: "APPLY FOR A FREE&nbsp;SESSION"
+cta: "GET FREE EMAIL COACHING"
+modal: "GET FREE EMAIL COACHING"
