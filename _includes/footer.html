@@ -5,13 +5,13 @@
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	    	<div class="modal-header">
-	        	<h5 class="modal-title" id="exampleModalLabel">{{ modalCopy.title | default: "Sign Up" }}</h5>
+	        	<h5 class="modal-title" id="exampleModalLabel">{{ modalCopy.title | default: "Sign up for free coaching by email" }}</h5>
 	        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          	<span aria-hidden="true">&times;</span>
 	        	</button>
 	      	</div>
 	      	<div class="modal-body">
-				<p class="text-centered">{{ modalCopy.body | default: "" }}</p>
+				<p class="text-centered">{{ modalCopy.body | default: "You'll receive strategies and advice to help you finish, release and 10X your music." }}</p>
 				<form method="post" class="af-form-wrapper" accept-charset="UTF-8" action="https://www.aweber.com/scripts/addlead.pl" target="_blank" >
 				<div style="display: none;">
 					<input type="hidden" name="meta_web_form_id" value="1644780650" />
@@ -67,7 +67,7 @@
 			</div>
 
 			<div class="af-element privacyPolicy justify-content-center">
-				<p>{{ modalCopy.footer | default: We'll cover how to finish more music and other ways to take your music to the next level" }}</p>
+				<p>{{ modalCopy.footer | default: "My emails are always unobtrusive and quick to read" }}</p>
 				<p>I respect your <a title="Privacy Policy" href="https://www.aweber.com/permission.htm" target="_blank" rel="nofollow">email privacy and inbox</a></p>
 
 	       		</form>
