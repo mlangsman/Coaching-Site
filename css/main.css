@@ -68,22 +68,34 @@
 
 /** Hero Section **/
 
-.myhero, .cta-block
+.myhero, .cta-block, .fixed-hero
 {
 	background-position: top;
 	background-repeat: no-repeat;
 	background-size: cover;
 
+
 	/*padding-left: 100px;
 	padding-top: 100px; */
 }
 
-.myhero 
+.myhero
 {
 		padding: 10rem 6rem;
 		background-image: url("../img/hero-image-2@2x.jpg");
 		min-height: 500px;
 		background-attachment: fixed;
+}
+
+.fixed-hero
+{
+		padding: 7rem 6rem;
+		background-image: url("../img/monochrome-background@2x.jpg");
+		min-height: 900px;
+		background-size: 100%;
+		background-color: white;
+		/* background-attachment: fixed;*/
+
 }
 
 .cta-block
@@ -93,6 +105,13 @@
 		min-height: 230px;
 }
 
+.cta-monochrome
+{
+	background-image: url("../img/monochrome-cta-background@2x.jpg");
+	background-size: cover;
+	height: auto;
+}
+
 .copy-block
 {
 	background-color: white;
@@ -100,6 +119,11 @@
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 
+}
+
+.fudge
+{
+	y: ;
 }
 
 
@@ -218,6 +242,15 @@ h1
 
 }
 
+.dark
+{
+	color: #1A1A1A;
+}
+
+.text-centered
+{
+	text-align: center;
+}
 
 h2
 {
@@ -677,6 +710,16 @@ button[type=submit]
 }
 
 
+.bodge-op
+{
+	position: relative;
+	top: -400px; 
+}
+
+.transparent
+{
+	background: none !important;
+}
 
 /** Responsive Behaviours **/
 
